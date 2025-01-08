@@ -1,5 +1,5 @@
-package core java;
- import java.util.Scanner;
+package core;
+import java.util.Scanner;
 public class Demo8 {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
