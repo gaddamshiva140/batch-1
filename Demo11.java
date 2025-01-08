@@ -1,6 +1,6 @@
-package core java;
-public class Demo11 {   
+
 import java.util.Scanner;
+public class Demo11 {   
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number: ");
