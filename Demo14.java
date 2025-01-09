@@ -1,25 +1,20 @@
 package core;
-import java.util.Scanner; 
-public class Demo14 { 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter number of years: ");
-        int years = scanner.nextInt();
-        System.out.print("Enter number of months: ");
-        int months = scanner.nextInt();
-        System.out.print("Enter number of days: ");
-        int days = scanner.nextInt();
-        long totalMinutes = convertToMinutes(years, months, days);
-        System.out.println("Total time in minutes: " + totalMinutes);
-        scanner.close();
+class MinutesToYears {
+    void minToYrs() {
+        int minutes = 3000010 ;
+        int year=minutes/(365*24*60);
+        System.out.println("Year=:"+year);
+        int days=minutes/(24*60)%365;
+        System.out.println("Days=:"+days);
+        int hours=minutes/60%24;
+        System.out.println("Hours=:"+hours);
+        int remainingminutes=minutes%60;
+        System.out.println("Second=:"+remainingminutes);
     }
-    public static long convertToMinutes(int years, int months, int days) {
-        final int MINUTES_IN_A_DAY = 1440; 
-        final int AVERAGE_DAYS_IN_A_YEAR = 365; 
-        final int AVERAGE_DAYS_IN_A_MONTH = 30;
-        long totalDays = years * AVERAGE_DAYS_IN_A_YEAR 
-                         + months * AVERAGE_DAYS_IN_A_MONTH 
-                         + days;
-        return totalDays * MINUTES_IN_A_DAY;
+}       
+public class Demo14 {
+    public static void main(String[] args) {
+        MinutesToYears obj = new MinutesToYears();
+        obj.minToYrs();
     }
 }
