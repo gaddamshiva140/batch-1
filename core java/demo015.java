@@ -1,6 +1,6 @@
 package core;
 import java.util.Scanner;
-public class Demo15 {
+public class demo015 {
     public static void getFibonacciSeries(int n) {
         if (n <= 0) {
             System.out.println(0);
