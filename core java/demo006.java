@@ -1,5 +1,5 @@
 package core;
-public class Demo6 {
+public class demo006 {
     public static void main(String[] args) {
         String username = "shiva";
         String pwd = "shiva1234";
