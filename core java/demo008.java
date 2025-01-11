@@ -1,6 +1,6 @@
 package core;
 import java.util.Scanner;
-public class Demo8 {
+public class demo008 {
         public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the radius of the circle: ");
