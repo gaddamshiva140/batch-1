@@ -1,6 +1,6 @@
 package core;
 import java.util.Scanner;
-public class Demo19 {
+public class demo019 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
