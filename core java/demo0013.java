@@ -7,7 +7,7 @@ package core;
             return sum;
         }
     }
-    public class Demo13 {
+    public class demo0013 {
         public static void main(String[] args) {
             SumOf2Digits obj = new SumOf2Digits();
             int n = 78;
