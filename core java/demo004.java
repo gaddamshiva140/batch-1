@@ -1,5 +1,5 @@
 package core;
-public class Demo4 {
+public class demo004 {
     public static void main(String[] args) {
         int x;
         for(x = 1; x <= 100; x++)
