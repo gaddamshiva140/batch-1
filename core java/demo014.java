@@ -12,7 +12,7 @@ class MinutesToYears {
         System.out.println("Second=:"+remainingminutes);
     }
 }       
-public class Demo14 {
+public class demo014 {
     public static void main(String[] args) {
         MinutesToYears obj = new MinutesToYears();
         obj.minToYrs();
