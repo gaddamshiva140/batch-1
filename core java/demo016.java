@@ -12,7 +12,7 @@ class FizzBizz {
 		return "number:" + number;
 	}
 }
-public class Demo16 {
+public class demo016 {
     public static void main(String[] args) {
         FizzBizz fbobj = new FizzBizz();
         int num = 3;
