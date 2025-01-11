@@ -1,5 +1,5 @@
 package core;
-public class Demo20 {
+public class demo020 {
     public static void main(String[] args) {
         System.out.println(isPalindrome(232)); 
         System.out.println(isPalindrome(345)); 
