@@ -1,5 +1,5 @@
 package core;
-public class Demo2 {
+public class demo002 {
     public static void main(String[] args) {
         int num1 = 10;
         int num2 = 20;
